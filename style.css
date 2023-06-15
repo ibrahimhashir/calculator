@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.father{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: rgba(209, 7, 196, 0.938);
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+#calcu{
+    border-radius: 9px;
+    font-size: 30px;
+}
+
+.math button{
+    /* background-color: blue; */
+
+    /* box-shadow: none; */
+    font-size: 19px;
+    margin:2px ;
+    border-radius: 5px;
+ 
+}

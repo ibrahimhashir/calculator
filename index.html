@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="father">
+        <div class="calculator"> 
+
+     
+    <div class="math">
+        <input type="text" id="calcu" style="height: 40px; width: 225px;" placeholder="00"> <br>
+        <button onclick="document.getElementById('calcu').value =''" style="height: 50px; width: 50px;">AC</button>
+        <button onclick="document.getElementById('calcu').value +='/'" style="height: 50px; width: 50px;">\</button>
+        <button onclick="document.getElementById('calcu').value +='*'" style="height: 50px; width: 50px;">X</button>
+        <button onclick="document.getElementById('calcu').value +='.'" style="height: 50px; width: 50px;">.</button>
+    </div>
+
+    <div class="math">
+        <button onclick="document.getElementById('calcu').value +='5'" style="height: 50px; width: 50px;">7</button>
+        <button onclick="document.getElementById('calcu').value +='6'" style="height: 50px; width: 50px;">8</button>
+        <button onclick="document.getElementById('calcu').value +='7'" style="height: 50px; width: 50px;">9</button>
+        <button onclick="document.getElementById('calcu').value +='-'" style="height: 50px; width: 50px;">-</button>
+    </div>
+
+    <div class="math">
+        <button onclick="document.getElementById('calcu').value +='4'" style="height: 50px; width: 50px;">4</button>
+        <button onclick="document.getElementById('calcu').value +='5'" style="height: 50px; width: 50px;">5</button>
+        <button onclick="document.getElementById('calcu').value +='6'" style="height: 50px; width: 50px;">6</button>
+        <button onclick="document.getElementById('calcu').value +='+'" style="height: 50px; width: 50px;">+</button>
+    </div>
+
+    <div class="math">
+        <button onclick="document.getElementById('calcu').value +='1'" style="height: 50px; width: 50px;">1</button>
+        <button onclick="document.getElementById('calcu').value +='2'" style="height: 50px; width: 50px;">2</button>
+        <button onclick="document.getElementById('calcu').value +='3'" style="height: 50px; width: 50px;">3</button>
+        <button onclick="document.getElementById('calcu').value +='%'" style="height: 50px; width: 50px;">%</button>
+    </div>
+
+    <div class="math">
+         
+        <button onclick="document.getElementById('calcu').value +='0'" style="height: 50px; width: 50px;">0</button>
+        <button onclick="document.getElementById('calcu').value +='00'" style="height: 50px; width: 50px;">00</button>
+        <button onclick="document.getElementById('calcu').value= eval(document.getElementById('calcu').value ) "style="height: 50px; width: 110px; border-radius: 7px;"  >=</button>
+    </div>
+
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>
