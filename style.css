@@ -17,6 +17,7 @@
     background-color: rgba(209, 7, 196, 0.938);
     padding: 20px;
     border-radius: 25px;
+    font-size: 50px;
 
 }
 
@@ -33,4 +34,8 @@
     margin:2px ;
     border-radius: 5px;
  
+}
+
+body{
+    background-color: deeppink;
 }
