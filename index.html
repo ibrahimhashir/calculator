@@ -45,7 +45,9 @@
          
         <button onclick="document.getElementById('calcu').value +='0'" style="height: 50px; width: 50px;">0</button>
         <button onclick="document.getElementById('calcu').value +='00'" style="height: 50px; width: 50px;">00</button>
-        <button onclick="document.getElementById('calcu').value= eval(document.getElementById('calcu').value ) "style="height: 50px; width: 117px; border-radius: 7px;"  >=</button>
+        <button onclick="document.getElementById('calcu').value= eval(document.getElementById('calcu').value ) "style="height: 50px; width: 50px;"  >=</button>
+        <button onclick="document.getElementById('calcu').value=document.getElementById('calcu').value.slice(0, document.getElementById('calcu').value.length -1)" style="height: 50px; width: 50px; ">Del</button>
+         
     </div>
 
 </div>
